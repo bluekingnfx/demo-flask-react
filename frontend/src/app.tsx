@@ -62,7 +62,6 @@ const processData = async(
             method:"POST",
             body:data
         })
-        console.log(response)
         const response_json = await response.json() as {
             result:string,
             status: number

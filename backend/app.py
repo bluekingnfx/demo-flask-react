@@ -17,10 +17,6 @@ def predict_lin_ag():
         with open('./model.pkl','rb') as f:
             model = pkl.load(f)
         result = sps[model.predict(values)[0]]
-        print(jsonify({
-            "result":result,
-            "status": 200
-        }))
         return jsonify({
             "result":result,
             "status": 200

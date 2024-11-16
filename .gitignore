@@ -32,9 +32,9 @@ __pycache__/
 *.egg-info/
 dist/
 build/
-LinearReg/backend/Include
-LinearReg/backend/Lib
-LinearReg/backend/Scripts
+backend/Include
+backend/Lib
+backend/Scripts
 power.cfg
 # Node (if you have frontend)
 node_modules/
@@ -44,10 +44,11 @@ yarn-debug.log
 yarn-error.log
 
 # Backend specific
-LinearReg/backend/__pycache__/
-LinearReg/backend/**/__pycache__/
-LinearReg/backend/config/local_settings.py
-LinearReg/backend/static/
-LinearReg/backend/media/
-LinearReg/backend/pyvenv.cfg
+backend/__pycache__/
+backend/**/__pycache__/
+backend/config/local_settings.py
+backend/static/
+backend/media/
+backend/pyvenv.cfg
 .vscode
+LinearReg/
