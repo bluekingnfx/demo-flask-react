@@ -52,3 +52,4 @@ backend/media/
 backend/pyvenv.cfg
 .vscode
 LinearReg/
+Lib/site-packages/*

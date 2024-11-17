@@ -8,6 +8,8 @@ Code is built for the question from Advanced machine learning semester 3 turn re
 
 - Run requirement.txt to install packages.
 
+- Optional: Run `py init_db.py` to obtain fresh SQLite database.
+
 - Navigate to the __backend__ folder and run `py app.py` from that path in the command prompt.
 
 - Navigate to _frontend_ and run __pnpm install__ after that run app using __pnpm start__
